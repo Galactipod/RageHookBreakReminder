@@ -16,7 +16,11 @@ more than a hello-world project by an inexperienced developer, this should not
 be used as a model for how an RPH plugin should be laid out. It might be
 inefficient, unscalable, and insecure.
 
+## Mirrors:
+- [LCPDFR](https://www.lcpdfr.com/downloads/gta5mods/scripts/36488-breakreminder/)
+- [GTA5-MODS](https://www.gta5-mods.com/scripts/breakreminder)
+
 ## Contact Me:
 
 - Galactipod on Discord
-- On the [RPH Discord server](discord.gg/z8N5P9MCRx).
+- On the [RPH Discord server](discord.gg/z8N5P9MCRx)
