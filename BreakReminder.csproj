@@ -71,11 +71,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
+    <Compile Include="src\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="BreakReminder.ini" />
+    <None Include="src\BreakReminder.ini" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +83,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>COPY "$(SolutionDir)\BreakReminder.ini" "$(TargetDir)"</PostBuildEvent>
+    <PostBuildEvent>COPY "$(SolutionDir)\src\BreakReminder.ini" "$(TargetDir)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
